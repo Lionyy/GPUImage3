@@ -8,7 +8,7 @@
 
 import AVFoundation
 
-class PixelBufferInput: ImageSource {
+public class PixelBufferInput: ImageSource {
     public let targets = TargetContainer()
     public var runBenchmark = false
     
